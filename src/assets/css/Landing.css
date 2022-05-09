@@ -1,0 +1,45 @@
+.greet {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  width: 100vw;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  color: gold;
+  height: 100vh;
+  width: 100%;
+}
+
+.left-img img {
+  width: 500px;
+  height: 400px;
+}
+
+.right-text {
+  width: 50%;
+  background-color: none;
+  padding: 45px;
+  box-sizing: border-box;
+}
+
+.right-text p {
+  width: 60%;
+  color: aliceblue;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.right-text .orderlink {
+  margin-top: 50px;
+  padding: 0px 10px;
+
+  color: rgb(23, 23, 23);
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  text-decoration: none;
+}
